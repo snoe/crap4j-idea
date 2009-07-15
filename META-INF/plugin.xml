@@ -1,0 +1,27 @@
+<idea-plugin version="2">
+  <name>Plugin name here</name>
+  <description>short description of the plugin</description>
+  <version>1.0</version>
+  <vendor>YourCompany</vendor>
+  <idea-version since-build="8000"/>
+
+  <application-components>
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+    <component>
+      <implementation-class>com.intellij.plugin.crap4j.Crap4jComponent</implementation-class>
+    </component>
+  </project-components>
+
+  <actions>
+    <action id="ScanFile" class="com.intellij.plugin.crap4j.ScanFileAction" text="Crap Check">
+      <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+    </action>
+  </actions>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+</idea-plugin>
