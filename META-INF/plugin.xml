@@ -19,6 +19,10 @@
     <action id="ScanFile" class="com.intellij.plugin.crap4j.ScanFileAction" text="Crap Check">
       <add-to-group group-id="EditorPopupMenu" anchor="last"/>
     </action>
+    <action id="ScanChanges" class="com.intellij.plugin.crap4j.ScanChanges" text="Crap Check" description="ScanChanges">
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+      <add-to-group group-id="ChangesViewPopupMenu" anchor="last"/>
+    </action>
   </actions>
 
   <extensions defaultExtensionNs="com.intellij">

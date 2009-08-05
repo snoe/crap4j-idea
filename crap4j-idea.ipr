@@ -519,6 +519,7 @@
     <library name="crap4j-idea">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/asm-analysis-3.0.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.crap4j.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
