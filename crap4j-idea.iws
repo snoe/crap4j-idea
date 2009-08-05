@@ -2,8 +2,8 @@
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="" />
-    <ignored path=".idea/workspace.xml" />
     <ignored path="crap4j-idea.iws" />
+    <ignored path=".idea/workspace.xml" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
@@ -72,16 +72,16 @@
       <file leaf-file-name="ScanFileAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/intellij/plugin/crap4j/ScanFileAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+            <state line="17" column="58" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrapChecker.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CrapChecker.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/intellij/plugin/crap4j/CrapChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="39" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0">
+            <state line="40" column="0" selection-start="1789" selection-end="1789" vertical-scroll-proportion="0.47423887">
               <folding />
             </state>
           </provider>
@@ -132,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="64" selection-start="927" selection-end="927" vertical-scroll-proportion="0.40398127">
+            <state line="30" column="0" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -531,7 +531,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/intellij/plugin/crap4j/ScanFileAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+        <state line="17" column="58" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -571,6 +571,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/intellij/plugin/crap4j/FileHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="13" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
@@ -587,14 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/intellij/plugin/crap4j/CrapChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="39" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="64" selection-start="927" selection-end="927" vertical-scroll-proportion="0.40398127">
+        <state line="40" column="0" selection-start="1789" selection-end="1789" vertical-scroll-proportion="0.47423887">
           <folding />
         </state>
       </provider>

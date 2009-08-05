@@ -31,11 +31,11 @@ public class CrapChecker {
 
 	Map<String, Double> crapMap = new HashMap<String, Double>();
 	for (MethodComplexity methodComplexity : methodComplexities) {
-	    String sig = methodComplexity.getClassName() + "." + methodComplexity.getMethodName() + methodComplexity.getMethodDescriptor();
+	    String sig = methodComplexity.getMethodName() + methodComplexity.getMethodDescriptor();
 	    double coverage = coverageMap.containsKey(sig) ? coverageMap.get(sig) : 0;
 	    double crap = (Math.pow(methodComplexity.getComplexity(), 2) * Math.pow(1 - coverage, 3)) + methodComplexity.getComplexity();
 	    if (crap >= 30) {
-		crapMap.put(sig, crap);
+		crapMap.put(methodComplexity.getClassName() + "." + sig, crap);
 	    }
 	}
 
